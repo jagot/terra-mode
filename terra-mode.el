@@ -810,6 +810,7 @@ Groups 6-9 can be used in any of argument regexps."
 
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.t$" . terra-mode))
+(add-to-list 'auto-mode-alist '("\\.terra$" . terra-mode))
 
 ;;;###autoload
 (add-to-list 'interpreter-mode-alist '("terra" . terra-mode))
