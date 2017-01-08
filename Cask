@@ -1,7 +1,7 @@
 (source melpa)
 (source gnu)
 
-(package "lua-mode" "dev" "Major mode for editing Lua")
+(package "terra-mode" "dev" "Major mode for editing Terra")
 
 (development
  (depends-on "buttercup")
